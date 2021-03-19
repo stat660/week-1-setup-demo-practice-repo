@@ -6,12 +6,7 @@
 Scenario: Solve a simplified version of the FizzBuzz Challenge
 
 Approach: Use a null data step and business logic to write to the log
-<<<<<<< Updated upstream
-
-Class: STAT660
-Section: 01
 */
-
 
 
 * Example;
@@ -19,17 +14,6 @@ data _null_;
     do i = 1 to 100;
         if mod(i,3) = 0 then put 'Fizz';
         else if mod(i, 5) = 0 then put 'Buzz';
-=======
-*/
-
-
-* Example;
-data _null_;
-    do i = 1 to 100;
-        if mod(i,4) = 0 then put 'Fizz';
-        else if mod(i, 6) = 0 then put 'Buzz';
-		else if mod(i, 2) = 0 then put 'Fizz Buzz';
->>>>>>> Stashed changes
         else put i=;
     end;
 run;
