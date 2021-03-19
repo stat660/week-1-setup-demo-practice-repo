@@ -13,7 +13,6 @@ Section: 01
 */
 
 
-
 * Example;
 data _null_;
     do i = 1 to 100;
@@ -26,14 +25,15 @@ data _null_;
 * Example;
 data _null_;
     do i = 1 to 100;
-        if mod(i,4) = 0 then put 'Fizz';
+		if mod(i, 4) = 0 and mod(i, 6)= 0 then put 'Fizz Buzz';
+        else if mod(i,4) = 0 then put 'Fizz';
         else if mod(i, 6) = 0 then put 'Buzz';
-		else if mod(i, 2) = 0 then put 'Fizz Buzz';
->>>>>>> Stashed changes
-        else put i=;
+		else put i=;
     end;
 run;
 
+
+  
 
 /*
 Notes:
