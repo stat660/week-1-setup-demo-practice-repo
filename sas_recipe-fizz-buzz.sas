@@ -9,6 +9,7 @@ Approach: Use a null data step and business logic to write to the log
 */
 
 /*Hello*/
+/*Hi again!*/
 * Example;
 data _null_;
     do i = 1 to 100;
