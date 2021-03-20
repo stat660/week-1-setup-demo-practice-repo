@@ -20,7 +20,7 @@ run;
 
 
 /*
-EDITNotes:
+EDIT2Notes:
 (1) In this example, the four main components of imperative programming are used:
 
 (i) The variable i is used to hold a value that varies.
