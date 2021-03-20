@@ -8,6 +8,8 @@ Scenario: Solve a simplified version of the FizzBuzz Challenge
 Approach: Use a null data step and business logic to write to the log
 */
 
+*/ Hi */
+
 
 * Example;
 data _null_;
