@@ -12,8 +12,8 @@ Approach: Use a null data step and business logic to write to the log
 * Example;
 data _null_;
     do i = 1 to 100;
-        if mod(i,3) = 0 then put 'Fizz';
-        else if mod(i, 5) = 0 then put 'Buzz';
+        if mod(i,3) = 0 then put 'Sweet tea';
+        else if mod(i, 7) = 0 then put 'Buzz';
 		else if mod(i, 2) = 0 then put 'Fizz Buzz';
         else put i=;
     end;
